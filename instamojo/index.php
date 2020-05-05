@@ -37,7 +37,21 @@
                 </div>
                 <button class="btn btn-primary" type="submit">BUY NOW</button>
             </form>
-            
+            <hr>
+            <h4>Refund request</h4>
+            <form method="POST" action="refund.php">
+                <div class="form-group">
+                    <label for="payment_id">PAYMENT ID</label>
+                    <input type="text" name="payment_id" class="form-control" id="payment_id">
+                </div>
+                <div class="form-group">
+                    <label for='issue'>CAUSE OF REFUND</label>
+                    <textarea class="form-control" rows="4" name="issue" id="issue"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">REQUEST REFUND</button>
+            </form>
+
+
         </div>
 
     </div>
